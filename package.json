@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "theia-local-portal",
+  "version": "1.0.0",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "type": "module",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "start": "node lib/cli.js"
+  },
+  "dependencies": {
+    "@types/http-proxy": "^1.17.9",
+    "cookie-parser": "^1.4.6",
+    "execa": "^6.1.0",
+    "express": "^4.18.1",
+    "http-proxy": "^1.18.1",
+    "rimraf": "^3.0.2",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.14",
+    "@types/node": "16",
+    "@types/yargs": "^17.0.12"
+  }
+}

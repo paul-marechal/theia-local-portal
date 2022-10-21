@@ -1,0 +1,9 @@
+{
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "checkJs": true,
+        "moduleResolution": "node",
+        "module": "ESNEXT",
+        "target": "ES2020"
+    },
+}
